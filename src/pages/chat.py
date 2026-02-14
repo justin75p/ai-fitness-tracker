@@ -54,7 +54,7 @@ if prompt := st.chat_input("How can I help you?"):
         messages += st.session_state.messages
 
         stream = client.chat.completions.create(
-            model="mistralai/Mistral-7B-Instruct-v0.2",
+            model="Qwen/Qwen2.5-7B-Instruct",
             messages=messages,
             stream=True,
         )
