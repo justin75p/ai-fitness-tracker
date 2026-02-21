@@ -15,7 +15,7 @@ A personal fitness tracker built in Python to track an individual's health and f
 - Streamlit
 - Pandas
 - Hugging Face Inference API 
-- Mistral AI 7B Instruct (for chatbot)
+- Qwen 2.5-7B Instruct (for chatbot)
 
 
 ## Screenshots
