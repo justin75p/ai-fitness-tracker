@@ -17,6 +17,14 @@ A personal fitness tracker built in Python to track an individual's health and f
 - Hugging Face Inference API 
 - Qwen 2.5-7B Instruct (for chatbot)
 
+## Setup
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Create a `.streamlit/secrets.toml` file using `.streamlit/secrets.toml.example` as a template:
+```toml
+HF_TOKEN = "your_hugging_face_token_here"
+```
+4. Run the app: `streamlit run src/main.py`
 
 ## Screenshots
 
